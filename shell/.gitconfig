@@ -37,7 +37,7 @@
 [merge]
     log = true
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/setup/.global-gitignore
 	editor = vim
 [push]
 	default = simple

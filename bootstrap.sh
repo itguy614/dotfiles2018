@@ -46,6 +46,6 @@ ln -s $HOME/.dotfiles/shell/.bashrc $HOME/.bashrc
 
 case `uname` in
     Darwin)
-        # source $HOME/.dotfiles/bootstrap.osx.sh
+        source $HOME/.dotfiles/bootstrap.osx.sh
     ;;
 esac

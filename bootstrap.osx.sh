@@ -12,9 +12,9 @@ source $HOME/.dotfiles/bootstrap.osx.devtools.sh
 source $HOME/.dotfiles/bootstrap.osx.binaries.sh
 
 echo 'Install some nice quicklook plugins'
-brew cask install --force qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package
+brew cask install --force qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv webpquicklook suspicious-package
 
-source $HOME/.dotfiles/bootstrap.pecl.sh
+source $HOME/.dotfiles/bootstrap.osx.pecl.sh
 source $HOME/.dotfiles/bootstrap.composer.sh
 source $HOME/.dotfiles/bootstrap.osx.valet.sh
 source $HOME/.dotfiles/bootstrap.osx.fonts.sh
