@@ -1,6 +1,7 @@
 #!/bin/sh
 
 apps=(
+    1password
     adobe-creative-cloud
     dash
     diffmerge
