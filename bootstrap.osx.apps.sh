@@ -13,7 +13,6 @@ apps=(
     google-nik-collection
     insomnia
     iterm2
-    microsoft-lync
     microsoft-office
     microsoft-teams
     mysqlworkbench
@@ -23,6 +22,7 @@ apps=(
     royal-tsx
     sequel-pro
     skitch
+    skype-for-business
     sourcetree
     spotify
     sublime-text
