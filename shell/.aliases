@@ -151,7 +151,7 @@ alias man=tldr
 alias o="open ."
 
 # VSCode
-alias code='open -a "/Applications/Visual Studio Code.app" "`pwd`"'
+alias code='open -a "/Applications/Visual Studio Code.app"'
 
 # Flush Directory Service cache
 alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"

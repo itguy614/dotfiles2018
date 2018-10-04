@@ -2,7 +2,7 @@
 ./bin
 /usr/local/mysql/bin
 /usr/local/sbin
-$HOME/bin
+~/bin
 /usr/local/bin
-$HOME/.composer/vendor/bin
+~/.composer/vendor/bin
 /usr/local/opt/node@8/bin
