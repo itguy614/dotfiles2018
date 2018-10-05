@@ -28,8 +28,6 @@ apps=(
     sublime-text
     the-unarchiver
     tunnelblick
-    virtualbox
-    virtualbox-extension-pack
     visual-studio-code
 )
 brew cask install ${apps[@]}

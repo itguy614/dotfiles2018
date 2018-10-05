@@ -1,6 +1,7 @@
 #!/bin/sh
 
-source $HOME/.dotfiles/bootstrap.osx.sysname.sh
+# Use this to set the computer name
+# source $HOME/.dotfiles/bootstrap.osx.sysname.sh
 
 # Hide "last login" line when starting a new terminal session
 touch $HOME/.hushlogin
