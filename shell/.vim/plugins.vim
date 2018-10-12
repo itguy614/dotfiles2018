@@ -15,7 +15,6 @@ call vundle#begin()						            " Begin plugin definitions
     Plugin 'tpope/vim-surround'                     "
     Plugin 'StanAngeloff/php.vim'                   " Updated PHP syntax definition
     Plugin 'arnaud-lb/vim-php-namespace'            " Easy way to insert namespace and use statements
-    Plugin 'craigemery/vim-autotag'                 " Automatically regenerate tag file
     Plugin 'Shougo/vimproc.vim'
     Plugin 'editorconfig/editorconfig-vim'          " Use the excellent editor config plugin
     Plugin 'ervandew/supertab'                      " SuperTab
