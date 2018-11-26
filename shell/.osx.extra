@@ -1,0 +1,14 @@
+# Case-insensitive globbing
+shopt -s nocaseglob
+
+# Append to the bash history file
+shopt -s histappend
+
+# Autocorret typos in path names
+shopt -s cdspell
+
+eval `gdircolors ~/.dotfiles/colors/dircolors.ansi-dark`
+
+export XDEBUG_CONFIG="idekey=VSCODE"
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"

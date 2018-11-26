@@ -11,7 +11,6 @@ call vundle#begin()						            " Begin plugin definitions
     Plugin 'majutsushi/tagbar'                      " Nice tag browser for the current file
     Plugin 'vimwiki/vimwiki'                        " Vim Wiki
     Plugin 'jiangmiao/auto-pairs'                   " Auto insert closing brackets
-    Plugin 'sirver/ultisnips'                       " Snippet manager
     Plugin 'tpope/vim-surround'                     "
     Plugin 'StanAngeloff/php.vim'                   " Updated PHP syntax definition
     Plugin 'arnaud-lb/vim-php-namespace'            " Easy way to insert namespace and use statements

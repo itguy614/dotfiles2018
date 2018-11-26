@@ -20,16 +20,8 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 alias v="vim"
-alias m="mate ."
-alias s="subl ."
-alias o="open"
-alias oo="open ."
-alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
-alias mvim="/Applications/MacVim.app/Contents/MacOS/Vim -g"
-alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
-alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
-alias fight="echo '(ง'̀-'́)ง' | pbcopy"
 alias editalias="vim ~/dotfiles/.aliases; source ~/dotfiles/.aliases"
+alias sshh="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
 
 # PHP/Laravel Shortcuts
 alias tinker="php artisan tinker"
@@ -110,8 +102,6 @@ export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40
 # Enable aliases to be sudo'ed
 alias sudo='sudo '
 
-# Always sudo apt-get
-alias apt-get='sudo apt-get'
 alias reboot='sudo reboot'
 
 # IP addresses
@@ -141,23 +131,3 @@ alias df='df -h'
 alias weather='curl -s wttr.in | sed -n "1,7p"'
 alias weathertoday="curl -s wttr.in | sed -n '1,17p'" #weather today
 alias weathertomorrow="curl -s wttr.in | sed -n '18,27p'" #weather tomorrow
-
-# Tool replacements
-alias cat=bat
-alias ping='prettyping --nolegend'
-alias man=tldr
-
-# Fast open
-alias o="open ."
-
-# VSCode
-alias code='open -a "/Applications/Visual Studio Code.app"'
-
-# Flush Directory Service cache
-alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
-
-# Lock the screen
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-
-
-

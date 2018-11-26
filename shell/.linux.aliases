@@ -1,0 +1,2 @@
+# Always sudo apt-get
+alias apt-get='sudo apt-get'

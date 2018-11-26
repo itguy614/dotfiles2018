@@ -1,0 +1,29 @@
+# Shortcuts
+alias m="mate ."
+alias s="subl ."
+alias o="open ."
+alias oo="open ."
+alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+alias mvim="/Applications/MacVim.app/Contents/MacOS/Vim -g"
+alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
+alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
+alias fight="echo '(ง'̀-'́)ง' | pbcopy"
+
+# Enable aliases to be sudo'ed
+alias sudo='sudo '
+
+alias reboot='sudo reboot'
+
+# Tool replacements
+alias cat=bat
+alias ping='prettyping --nolegend'
+alias man=tldr
+
+# VSCode
+alias code='open -a "/Applications/Visual Studio Code.app"'
+
+# Flush Directory Service cache
+alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
+
+# Lock the screen
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
