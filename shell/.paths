@@ -6,3 +6,5 @@
 /usr/local/bin
 ~/.composer/vendor/bin
 /usr/local/opt/node@8/bin
+/usr/local/opt/php@7.2/bin
+/usr/local/opt/php@7.2/sbin
