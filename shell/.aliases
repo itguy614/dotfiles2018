@@ -104,6 +104,9 @@ alias sudo='sudo '
 
 alias reboot='sudo reboot'
 
+# Always enable colored `grep` output
+alias grep="grep --color=auto"
+
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en1"
