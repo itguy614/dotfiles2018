@@ -16,3 +16,8 @@ esac
 
 # Make sure ssh-agent variable are set correctly
 eval `ssh-agent` 2>&1 > /dev/null
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi

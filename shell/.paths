@@ -9,3 +9,4 @@
 /usr/local/opt/php@7.2/bin
 /usr/local/opt/php@7.2/sbin
 ./node_modules/.bin
+./vendor/bin

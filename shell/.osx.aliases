@@ -27,3 +27,6 @@ alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 
 # Lock the screen
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Print Source Code
+alias printcode="a2ps -1 --line-numbers=1 -g -E"
